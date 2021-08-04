@@ -1,0 +1,53 @@
+.nav-side {
+  background: transparent;
+  padding: 1rem;
+  position: fixed;
+  z-index: 10;
+}
+
+.side-nav {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #fff;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  outline: none;
+}
+
+.side-nav a {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  display: block;
+  transition: 1s ease-in-out;
+  text-transform: capitalize;
+  transition: all 500ms ease-in-out;
+}
+
+.side-nav a:hover {
+  background-color: #292c2f;
+  color: #fff;
+}
+
+.side-nav .btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 1rem;
+  top: 0;
+  right: 0;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  font-size: 36px;
+  background-color: #fff;
+  overflow-y: hidden;
+}

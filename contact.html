@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/sideNav.css">
+  <script src="https://kit.fontawesome.com/0a9cc16cf4.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/tablogo.png" sizes="96x96" />
+  <title>BEOSIGNALIZACIJA - Kontakti</title>
+</head>
+
+<body>
+  <!-- Side navigation -->
+  <div class="nav-side">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30px" height="30px">
+          <path d="M0,5 30,5" stroke="#f50000" stroke-width="5px" />
+          <path d="M0,14 30,14" stroke="#D3CE37" stroke-width="5px" />
+          <path d="M0,23 30,23" stroke="#43BB22" stroke-width="5px" />
+        </svg>
+      </a>
+    </span>
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <div class="side-navv">
+        <div class="nav-logo">
+          <img src="img/newlogo.png" alt="">
+        </div>
+        <a href="index.html">Početna</a>
+      </div>
+      <a href="services.html">Usluge</a>
+      <a href="prices.html">Cenovnik</a>
+      <a href="#">Kontakt</a>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="loader">
+    <nav class="nav">
+      <div class="nav-items">
+        <div class="logo">
+          <img src="img/newlogo.png" alt="BEOSIGNALIZACIJA">
+        </div>
+        <div class="links">
+          <ul class="link">
+            <li class="link-item "><a href="index.html">Početna</a></li>
+            <li class="link-item"> <a href="services.html">Usluge</a></li>
+            <li class="link-item"> <a href="prices.html">Cenovnik</a> </li>
+            <li class="link-item"> <a class="current" href="#">Kontakt</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Map -->
+    <div class="contact-grid">
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.573893964693!2d20.528329615238!3d44.78949167909874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70a704a4df0b%3A0x3c900e4e73baed43!2sMirijevski%20Venac%2018%2C%20Beograd%2011160!5e0!3m2!1sen!2srs!4v1601579126385!5m2!1sen!2srs"
+          width="100%" height="98%" scrolling="no" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+
+      <!-- Contact Form -->
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xvovgydn" method="post">
+        <fieldset class="input-form" id="fs-frm-inputs">
+
+          <div class="form-align">
+            <h2 class="contact">Kontaktirajte nas:</h2>
+            <label for="full-name">Ime i Prezime</label>
+            <input type="text" name="Ime i Prezime" id="full-name" placeholder="Vaše ime" required="">
+            <label for="email-address">Email Adresa</label>
+            <input type="email" name="Odgovori na" id="email-address" placeholder="primer@email.com" required="">
+            <label for="message">Poruka</label>
+            <textarea rows="5" name="Poruka" id="message" placeholder="Unesite poruku" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </div>
+        </fieldset>
+        <input class="btn" type="submit" value="Pošalji">
+      </form>
+    </div>
+
+
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Footer left -->
+
+          <div class="footer-left">
+            <div class="footer-align">
+
+              <h3><span>BEO SIGNALIZACIJA D.O.O.</span></h3>
+
+              <p class="footer-links">
+
+                <a href="services.html#test"><i class="fas fa-angle-right"></i> Pocetna</a>
+                <a href="#about-us"><i class="fas fa-angle-right"></i> O nama</a>
+                <a href="#job-description"><i class="fas fa-angle-right"></i> Cime se bavimo</a>
+                <a href="#project"><i class="fas fa-angle-right"></i> Projekti</a>
+
+              </p>
+            </div>
+          </div>
+
+          <!-- Footer center  -->
+          <div class="footer-center">
+            <div class="footer-align">
+
+              <p><i class="fa fa-map-marker sm-link"></i> Mirijevski Venac 18-20<br> 11160 Beograd, Zvezdara</p>
+              <p><i class="fa fa-phone sm-link"></i> +381 11 3432 656</p>
+              <p><i class="fa fa-envelope sm-link"></i> <a href="contact.html#fs-frm">office@beosignalizacija.rs</a></p>
+              <p><i class="fa fa-envelope sm-link"></i> <a href="contact.html#fs-frm">beosignalizacija@gmail.com</a></p>
+
+            </div>
+          </div>
+
+          <!-- Footer right  -->
+          <div class="footer-right">
+            <div class="footer-align">
+
+              <div class="footer-company-about">
+                <div class="footer-about-us">
+                  O Nama
+                </div>
+                <p>Svojim zalaganjem i uz veliko radno iskustvo u montaži saobraćajne opreme svetlosne signalizacije, vertikalne i horizontalne signalizacije, omogućava održavanje saobraćajne semaforske opreme.</p>
+              </div>
+
+              <div class="footer-icons">
+
+                <a href="#" class="sm-link"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="sm-link"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="sm-link"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="sm-link"><i class="fa fa-github"></i></a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  </section>
+  <p class="footer-company-name">&copy; 2020. Sva prava zadržana</p>
+  </div>
+
+  <script src="js/sideNav.js"></script>
+</body>
+
+</html>
